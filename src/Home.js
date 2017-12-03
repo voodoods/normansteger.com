@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from './header/Header'
 import './Home.css';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-       <h1>Norman Steger</h1>
+       <Header />
       </div>
     );
   }

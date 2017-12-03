@@ -1,0 +1,27 @@
+.Header {
+  padding: 15px 0;
+}
+
+.Header h1,
+.Header h2 {
+  display: inline;
+  font-size: 1.6em;
+}
+
+.Header #logo {
+  width: 50px;
+  float:left;
+}
+
+.Header .title {
+  float: left;
+  margin-top:10px;
+}
+
+.Header .title h1 { 
+    color: #333;
+    margin: 10px;
+}
+.Header .title h2 { 
+    color: #ddd; 
+}
