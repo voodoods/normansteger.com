@@ -6,7 +6,7 @@ import StyledHome from './Home.styled'
 class Home extends Component {
   render() {
     return (
-      <StyledHome>
+      <StyledHome className="Home">
        <Header />
        <Blog />
       </StyledHome>

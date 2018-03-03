@@ -5,7 +5,7 @@ import StyledHeader from './Header.styled'
 class Header extends Component {
   render() {
     return (
-      <StyledHeader>
+      <StyledHeader className="Header">
         <img id="logo" src={logo} alt="Logo - Norman Steger, Software Developer" title="Home" />
         <div className="title">
           <h1>Norman Steger</h1>&nbsp;
