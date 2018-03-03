@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Header from './header/Header'
 import Blog from './blog/Blog'
-import './Home.css';
+import StyledHome from './Home.styled'
 
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <StyledHome>
        <Header />
        <Blog />
-      </div>
+      </StyledHome>
     );
   }
 }

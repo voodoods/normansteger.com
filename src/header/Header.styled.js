@@ -1,27 +1,32 @@
-.Header {
-  padding: 15px 0;
-}
+import styled from 'styled-components'
 
-.Header h1,
-.Header h2 {
+const StyledHeader = styled.div`
+
+  padding: 15px 0;
+
+ h1,
+ h2 {
   display: inline;
   font-size: 1.6em;
 }
 
-.Header #logo {
+ #logo {
   width: 50px;
   float:left;
 }
 
-.Header .title {
+ .title {
   float: left;
   margin-top:10px;
 }
 
-.Header .title h1 { 
+ .title h1 { 
     color: #333;
     margin: 10px;
 }
-.Header .title h2 { 
+ .title h2 { 
     color: #ddd; 
 }
+`
+
+export default StyledHeader
