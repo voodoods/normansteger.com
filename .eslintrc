@@ -1,6 +1,6 @@
 {
   "extends": [
-    "react-app",
+    "plugin:react/recommended",
     "8select"
   ],
   "rules": {
