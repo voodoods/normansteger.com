@@ -1,12 +1,11 @@
 language: node_js
 node_js:
   - "iojs"
-  - "7"
+  - "9.7.1"
 cache: 
   yarn: true
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version version-number
-  - export PATH="$HOME/.yarn/bin:$PATH"
+  directories:
+    - node_modules
 install: 
   - yarn
 script: 
