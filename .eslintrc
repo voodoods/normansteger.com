@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "8select"
+  ],
+  "rules": {
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "FunctionDeclaration": false,
+          "MethodDefinition": false,
+          "ClassDeclaration": false,
+          "ArrowFunctionExpression": false
+        }
+      }
+    ],
+    "no-console":0
+  }
+}
