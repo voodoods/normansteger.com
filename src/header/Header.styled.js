@@ -1,32 +1,51 @@
 import styled from 'styled-components'
 
 const StyledHeader = styled.div`
+  background: #333;
 
-  padding: 15px 0;
+  .title {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 3em;
+    height: 10%;
+    h1,
+    h2 {
+      display: inline;
+      font-size: 1em;
+      line-height: 1.5em;
+      margin: 0 0 0 15px;
+    }
 
- h1,
- h2 {
-  display: inline;
-  font-size: 1.6em;
-}
+    h1 {
+      color: #fff;
+    }
+    h2 {
+      color: #aaa;
+    }
 
- #logo {
-  width: 50px;
-  float:left;
-}
+    #logo {
+      width: 50px;
+    }
+  }
 
- .title {
-  float: left;
-  margin-top:10px;
-}
+  .SocialContacts {
+    float: right;
+    padding: 15px 3em;
+    height: 10%;
 
- .title h1 { 
-    color: #333;
-    margin: 10px;
-}
- .title h2 { 
-    color: #ddd; 
-}
+    li {
+      display: inline-block;
+      margin-right: 5px;
+
+      a {
+        color: #c1ccd1;
+        transition: 0.2s color ease-in-out;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
 `
 
 export default StyledHeader
