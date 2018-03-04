@@ -13,6 +13,10 @@ const StyledClaim = styled.div`
     font-size: 1.6em;
     color: #aaa;
   }
+
+  .seperator {
+    margin-top: 3em;
+  }
 `
 
 export default StyledClaim
