@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Header from './header/Header'
+import Header from '../header/Header'
+import Claim from '../claim/Claim'
 import StyledHome from './Home.styled'
 
 class Home extends Component {
@@ -7,6 +8,7 @@ class Home extends Component {
     return (
       <StyledHome className="Home">
        <Header />
+       <Claim />
       </StyledHome>
     );
   }
