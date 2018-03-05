@@ -13,7 +13,7 @@ class Button extends Component {
 
   render() {
     return (
-      <StyledButton onClick={() => this.callRoute(this.props.route)} className="Button">
+      <StyledButton onClick={() => this.callRoute(this.props.route)} className="Button" primary={this.props.primary}>
         {this.props.text}
       </StyledButton>
     )
@@ -23,6 +23,7 @@ class Button extends Component {
 Button.propTypes = {
   text: PropTypes.string,
   route: PropTypes.string,
+  primary: PropTypes.boolean,
 }
 
 export default Button
