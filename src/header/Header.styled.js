@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 const StyledHeader = styled.div`
+  position: fixed;
+  width: 100%;
   background: #333;
 
   .title {
