@@ -8,7 +8,9 @@ class Header extends Component {
     return (
       <StyledHeader className="Header">
         <div className="title">
-          <img id="logo" src={logo} alt="Logo - Norman Steger, Software Developer" title="Home" />
+          <a href="/">
+            <img id="logo" src={logo} alt="Logo - Norman Steger, Software Developer" title="Home" />
+          </a>
           <h1>Norman Steger</h1>&nbsp;
           <h2>UI / UX Designer &middot; Software Developer &middot; Frontend Engineer</h2>
         </div>
