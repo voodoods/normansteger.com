@@ -22,7 +22,7 @@ SkillCard.propTypes = {
   logo: PropTypes.string,
   name: PropTypes.string,
   description: PropTypes.string,
-  centered: PropTypes.booelean,
+  centered: PropTypes.bool,
 }
 
 export default SkillCard

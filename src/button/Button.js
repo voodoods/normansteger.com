@@ -23,7 +23,7 @@ class Button extends Component {
 Button.propTypes = {
   text: PropTypes.string,
   route: PropTypes.string,
-  primary: PropTypes.boolean,
+  primary: PropTypes.bool,
 }
 
 export default Button
