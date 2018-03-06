@@ -58,7 +58,9 @@ class Skills extends Component {
 }
 
 Skills.propTypes = {
-  location: PropTypes.object,
+  location: PropTypes.shape({
+    pathname: PropTypes.string,
+  }),
 }
 
 export default Skills
