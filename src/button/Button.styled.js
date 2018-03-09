@@ -14,6 +14,10 @@ const StyledButton = styled.div`
   &:hover {
     background: ${props => (props.primary ? '#555' : '#eee')};
   }
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 
 export default StyledButton

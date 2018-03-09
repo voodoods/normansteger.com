@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import '../node_modules/purecss/build/pure-min.css'
+import '../node_modules/purecss/build/grids-responsive-min.css'
 import './index.css'
 
 import Header from './header/Header'
@@ -10,7 +12,7 @@ import registerServiceWorker from './registerServiceWorker'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 ReactDOM.render(
-  <div className="wrapper">
+  <div className="wrapper pure-g">
     <Header />
     <BrowserRouter>
       <Switch>

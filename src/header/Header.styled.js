@@ -5,6 +5,14 @@ const StyledHeader = styled.div`
   width: 100%;
   background: #333;
 
+  @media (max-width: 768px) {
+    position: static;
+
+    a {
+      display: inline-block;
+    }
+  }
+
   .title {
     display: inline-flex;
     align-items: center;
@@ -30,6 +38,26 @@ const StyledHeader = styled.div`
     }
   }
 
+  .title.pure-u-md-1,
+  .title.pure-u-sm-1 {
+    display: block;
+    height: auto;
+    padding: 1em;
+    text-align: center;
+
+    h1,
+    h2 {
+      display: block;
+    }
+    h1 {
+      font-size: 2em;
+    }
+
+    #logo {
+      width: 100px;
+    }
+  }
+
   .SocialContacts {
     float: right;
     padding: 15px 3em;
@@ -46,6 +74,17 @@ const StyledHeader = styled.div`
           color: white;
         }
       }
+    }
+  }
+
+  .pure-u-sm-1 {
+    text-align: center;
+
+    .SocialContacts {
+      display: inline-block;
+      float: none;
+      margin: auto;
+      padding-top: 0;
     }
   }
 `

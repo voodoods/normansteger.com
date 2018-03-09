@@ -33,3 +33,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   background-size: auto 91%;
   background-position: bottom right;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  #root {
+    background: none;
+  }
+}
