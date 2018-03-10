@@ -7,6 +7,12 @@ const StyledSkillCard = styled.div`
   width: ${props => (props.centered ? '28%' : '100%')};
   float: ${props => (props.centered ? 'left' : 'none')};
 
+  @media screen and (max-width: 768px) {
+    width: ${props => (props.centered ? '40%' : '100%')};
+    height: auto;
+    margin: ${props => (props.centered ? '5%' : '3em 3em 0 0')};
+  }
+
   h3 {
     font-size: 1.4em;
     text-align: ${props => (props.centered ? 'center' : 'left')};
@@ -44,6 +50,10 @@ const StyledSkillCard = styled.div`
     width: ${props => (props.centered ? '100%' : '500px')};
     height: ${props => (props.centered ? '150px' : 'auto')};
     float: ${props => (props.centered ? 'none' : 'left')};
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
   }
 `
 

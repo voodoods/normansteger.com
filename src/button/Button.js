@@ -13,7 +13,11 @@ class Button extends Component {
 
   render() {
     return (
-      <StyledButton onClick={() => this.callRoute(this.props.route)} className="Button" primary={this.props.primary}>
+      <StyledButton
+        onClick={() => this.callRoute(this.props.route)}
+        className="Button pure-u-lg-2-5 pure-u-sm-1"
+        primary={this.props.primary}
+      >
         {this.props.text}
       </StyledButton>
     )

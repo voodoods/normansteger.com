@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+  letter-spacing: normal;
 }
 
 body, html {
@@ -32,4 +33,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   background: url('./norman-steger.jpg') no-repeat;
   background-size: auto 91%;
   background-position: bottom right;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  #root {
+    background: none;
+  }
 }

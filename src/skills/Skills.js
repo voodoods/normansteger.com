@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import StyledSkills from './Skills.styled'
 import SkillCard from './skill-card/SkillCard'
 import ContentNotFound from '../content-not-found/ContentNotFound'
-import Navbar from '../navbar/Navbar'
 
 import { softSkills, codeSkills } from './skills-data.js'
 
@@ -19,10 +18,8 @@ class Skills extends Component {
 
   render() {
     return (
-      <StyledSkills className="Skills">
+      <StyledSkills className="Skills pure-u-lg-3-5 pure-u-md-1 pure-u-sm-1">
         {this.state.softSkills.length === 0 && <ContentNotFound />}
-
-        <Navbar path={this.props.location.pathname} />
 
         {this.state.softSkills.length > 0 && (
           <div>

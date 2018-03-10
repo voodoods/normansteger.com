@@ -13,6 +13,11 @@ const StyledSkills = styled.div`
     width: 100%;
     margin-top: 2em;
   }
+
+  @media (max-width: 1024px) {
+    padding: 1em;
+    width: 100%;
+  }
 `
 
 export default StyledSkills
