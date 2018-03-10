@@ -15,7 +15,7 @@ class Button extends Component {
     return (
       <StyledButton
         onClick={() => this.callRoute(this.props.route)}
-        className="Button pure-u-sm-1"
+        className="Button pure-u-lg-2-5 pure-u-sm-1"
         primary={this.props.primary}
       >
         {this.props.text}

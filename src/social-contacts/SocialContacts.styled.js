@@ -6,6 +6,10 @@ const StyledSocialContacts = styled.ul`
   li {
     display: inline-block;
     margin-right: 5px;
+
+    a {
+      color: #c1ccd1;
+    }
   }
 `
 

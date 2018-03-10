@@ -9,14 +9,11 @@ const StyledButton = styled.div`
   color: ${props => (props.primary ? '#fff' : '#000')};
   background: ${props => (props.primary ? '#000' : '#fff')};
   border: 1px solid #000;
+  text-align: center;
   cursor: pointer;
 
   &:hover {
     background: ${props => (props.primary ? '#555' : '#eee')};
-  }
-
-  @media (max-width: 768px) {
-    display: block;
   }
 `
 

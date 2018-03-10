@@ -7,14 +7,16 @@ class Header extends Component {
   render() {
     return (
       <StyledHeader className="Header pure-u-1">
-        <div className="title pure-u-lg-7-12 pure-u-md-1 pure-u-sm-1">
+        <div className="title pure-u-lg-19-24 pure-u-md-16-24 pure-u-sm-1">
           <a href="/">
             <img id="logo" src={logo} alt="Logo - Norman Steger, Software Developer" title="Home" />
           </a>
-          <h1>Norman Steger</h1>&nbsp;
-          <h2>UI / UX Designer &middot; Software Developer &middot; Frontend Engineer</h2>
+          <h1 className="pure-u-lg-5-24 pure-u-md-5-24 pure-u-sm-1">Norman Steger</h1>&nbsp;
+          <h2 className="pue-u-lg-19-24 pure-u-md-19-24 pure-u-sm-1">
+            UI / UX Designer &middot; Software Developer &middot; Frontend Engineer
+          </h2>
         </div>
-        <div className="pure-u-lg-5-12 pure-u-md-1 pure-u-sm-1">
+        <div className="socials pure-u-lg-5-24 pure-u-md-8-24 pure-u-sm-1">
           <SocialContacts />
         </div>
       </StyledHeader>
