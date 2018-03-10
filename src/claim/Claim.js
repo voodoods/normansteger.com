@@ -12,7 +12,6 @@ class Home extends Component {
 
           <p className="seperator">
             <Button text="Find out more" route="/skills" primary={true} />
-            <Button text="Want to hire me?" route="/hire-me" />
           </p>
         </div>
       </StyledClaim>
