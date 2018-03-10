@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import '../node_modules/purecss/build/pure-min.css'
-import '../node_modules/purecss/build/grids-responsive-min.css'
+import 'purecss/build/pure-min.css'
+import 'purecss/build/grids-responsive-min.css'
 import './index.css'
 
 import Header from './header/Header'
