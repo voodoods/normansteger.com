@@ -21,10 +21,12 @@ const StyledClaim = styled.div`
     margin-top: 3em;
   }
 
-  .pure-u-md-1,
-  .pure-u-sm-1 {
-    padding: 1em;
-    text-align: center;
+  @media (max-width: 768px) {
+    .pure-u-md-1,
+    .pure-u-sm-1 {
+      padding: 1em;
+      text-align: center;
+    }
   }
 `
 
