@@ -13,22 +13,22 @@ import logoStyledComponents from './assets/styled-components.png'
 
 const softSkills = [
   {
-    logo: logoDesign,
-    name: 'I design media',
-    description:
-      'Ever since I was a kid I had a talent for good design and an eye for detail. One day I turned this passion into a profession.',
-  },
-  {
     logo: logoCode,
     name: 'I craft code',
     description:
-      'I love building software. I always aim to use state-of-the-art technology while keeping my code as clean, fast and well tested as possbile.',
+      'I love building software for the web. Thus I always aim to use state-of-the-art technology while keeping my code as clean, fast and well tested as possbile.',
+  },
+  {
+    logo: logoDesign,
+    name: 'I design media',
+    description:
+      'Passion for well designed user experiences and an eye for detail is part of my DNA. Being a trained media designer I turned this passion into a profession early on in my career.',
   },
   {
     logo: logoTeam,
     name: "I'm a team player",
     description:
-      "Great results can only be achieved in a team. That's why I will provide my team mates with everything they need to achieve greatness - be it as a member or as a leader.",
+      "Great results can only be achieved in a team. I've been part of such teams and have led them myself as wellc. Thus I'm always commited to provide my team mates with everything they need to achieve greatness - be it as their partner or their leader.",
   },
 ]
 
