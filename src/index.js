@@ -5,6 +5,7 @@ import 'purecss/build/grids-responsive-min.css'
 import './index.css'
 
 import Header from './header/Header'
+import Footer from './footer/Footer'
 import Home from './home/Home'
 import Skills from './skills/Skills'
 
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route exact path="/skills" component={Skills} />
       </Switch>
     </BrowserRouter>
+    <Footer />
   </div>,
   document.getElementById('root')
 )
