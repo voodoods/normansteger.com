@@ -57,13 +57,15 @@ const StyledHeader = styled.div`
       h1,
       h2 {
         display: block;
+        padding: 0;
+        margin: 0;
       }
       h1 {
-        font-size: 2em;
+        font-size: 1.5em;
       }
 
       #logo {
-        width: 100px;
+        width: 75px;
       }
     }
 
