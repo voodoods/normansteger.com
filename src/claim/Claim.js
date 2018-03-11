@@ -10,9 +10,9 @@ class Home extends Component {
           <h3>I create Web Applications</h3>
           <span>User Friendly. Performant. Responsive. Test Driven.</span>
 
-          <p className="seperator">
+          <div className="seperator">
             <Button text="Find out more" route="/skills" primary={true} />
-          </p>
+          </div>
         </div>
       </StyledClaim>
     )
