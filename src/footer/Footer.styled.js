@@ -17,7 +17,7 @@ const StyledFooter = styled.div`
 
   a,
   .fa {
-    color: #889ea8;
+    color: #72868e;
   }
 
   .mailcontact {
