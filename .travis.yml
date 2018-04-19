@@ -1,20 +1,11 @@
 os: osx
 language: node_js
 node_js:
-  - "9.7.1"
+  - "9.11.1"
 cache: 
   yarn: true
   directories:
     - node_modules
-run:
-  name: update yarn
-  command: |
-    # remove default yarn
-    sudo rm -rf $(dirname $(which yarn))/yarn*
-    # download latest
-    rm -rf ~/.yarn
-    curl -o- -L https://yarnpkg.com/install.sh | bash
-    echo 'export PATH="${PATH}:${HOME}/.yarn/bin"' >> $BASH_ENV
 install: 
   - yarn
 script: 
