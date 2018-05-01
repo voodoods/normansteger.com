@@ -10,7 +10,6 @@ import Home from './home/Home'
 import Skills from './skills/Skills'
 import Imprint from './imprint/Imprint'
 
-import registerServiceWorker from './registerServiceWorker'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 ReactDOM.render(
@@ -27,4 +26,3 @@ ReactDOM.render(
   </div>,
   document.getElementById('root')
 )
-registerServiceWorker()
