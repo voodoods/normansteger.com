@@ -37,7 +37,7 @@ class Imprint extends Component {
             your behavior on this website I will take care to the best of my abilities not to use any kind of
             technologies that allow the tracking or storage of personal or usage related data on this website. This also
             means that I will take immediate action to remove such technologies from this website should they ever
-            become part of it.
+            become part of it without my knowledge.
             <br />
             <br />
             <b>Liability for external Links / References</b>
