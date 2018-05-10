@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const StyledClaim = styled.div`
   .pure-u-lg-3-5 {
     height: 90%;
-    padding: 12em 3em;
+    padding: 2em 0;
   }
 
   h3 {
