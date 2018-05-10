@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import StyledClaim from './Claim.styled'
 import Button from '../button/Button'
 
-class Home extends Component {
+class Claim extends Component {
   render() {
     return (
       <StyledClaim className="Claim">
@@ -19,4 +19,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default Claim

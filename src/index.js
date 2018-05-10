@@ -9,6 +9,7 @@ import Footer from './footer/Footer'
 import Home from './home/Home'
 import Skills from './skills/Skills'
 import Imprint from './imprint/Imprint'
+import Cv from './curriculum-vitae/Cv'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/imprint" component={Imprint} />
+        <Route exact path="/cv" component={Cv} />
       </Switch>
     </BrowserRouter>
     <Footer />

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Home",
+    "route": "/"
+  },
+  {
+    "title": "Skills",
+    "route": "/skills"
+  },
+  {
+    "title": "Curriculum Vitae",
+    "route": "/cv"
+  }
+]
