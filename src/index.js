@@ -4,12 +4,13 @@ import 'purecss/build/pure-min.css'
 import 'purecss/build/grids-responsive-min.css'
 import './index.css'
 
-import Header from './header/Header'
-import Footer from './footer/Footer'
-import Home from './home/Home'
-import Skills from './skills/Skills'
-import Imprint from './imprint/Imprint'
-import Cv from './curriculum-vitae/Cv'
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+
+import Home from './pages/home/Home'
+import Skills from './pages/skills/Skills'
+import Imprint from './pages/imprint/Imprint'
+import Cv from './pages/curriculum-vitae/Cv'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
