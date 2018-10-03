@@ -1,6 +1,6 @@
 import React from 'react'
 import SocialContacts from '../social-contacts/'
-import logo from './ns-logo2016.svg'
+import logo from '../../assets/ns-logo2016.svg'
 import StyledHeader from './styles'
 
 const Header = () => (

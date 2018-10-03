@@ -7,10 +7,10 @@ import './index.css'
 import Header from './components/header/'
 import Footer from './components/footer/'
 
-import Home from './pages/home/Home'
-import Skills from './pages/skills/Skills'
-import Imprint from './pages/imprint/Imprint'
-import Cv from './pages/curriculum-vitae/Cv'
+import Home from './pages/home/'
+import Skills from './pages/skills/'
+import Imprint from './pages/imprint/'
+import Cv from './pages/curriculum-vitae/'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
