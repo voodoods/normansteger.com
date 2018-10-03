@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> component index expects component to match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navbar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ul
+        className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+        <li
+                className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+        >
+                <a
+                        className="inactive"
+                        href="/"
+                >
+                        Home
+                </a>
+        </li>
+        <li
+                className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+        >
+                <a
+                        className="inactive"
+                        href="/skills"
+                >
+                        Skills
+                </a>
+        </li>
+        <li
+                className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+        >
+                <a
+                        className="inactive"
+                        href="/cv"
+                >
+                        Curriculum Vitae
+                </a>
+        </li>
+</ul>,
+      "className": "Navbar pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+            <a
+                        className="inactive"
+                        href="/"
+            >
+                        Home
+            </a>
+</li>,
+          <li
+            className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+            <a
+                        className="inactive"
+                        href="/skills"
+            >
+                        Skills
+            </a>
+</li>,
+          <li
+            className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+            <a
+                        className="inactive"
+                        href="/cv"
+            >
+                        Curriculum Vitae
+            </a>
+</li>,
+        ],
+        "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="inactive"
+              href="/"
+>
+              Home
+</a>,
+            "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Home",
+              "className": "inactive",
+              "href": "/",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="inactive"
+              href="/skills"
+>
+              Skills
+</a>,
+            "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Skills",
+              "className": "inactive",
+              "href": "/skills",
+            },
+            "ref": null,
+            "rendered": "Skills",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="inactive"
+              href="/cv"
+>
+              Curriculum Vitae
+</a>,
+            "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Curriculum Vitae",
+              "className": "inactive",
+              "href": "/cv",
+            },
+            "ref": null,
+            "rendered": "Curriculum Vitae",
+            "type": "a",
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ul
+          className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+          <li
+                    className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+          >
+                    <a
+                              className="inactive"
+                              href="/"
+                    >
+                              Home
+                    </a>
+          </li>
+          <li
+                    className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+          >
+                    <a
+                              className="inactive"
+                              href="/skills"
+                    >
+                              Skills
+                    </a>
+          </li>
+          <li
+                    className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+          >
+                    <a
+                              className="inactive"
+                              href="/cv"
+                    >
+                              Curriculum Vitae
+                    </a>
+          </li>
+</ul>,
+        "className": "Navbar pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+              <a
+                            className="inactive"
+                            href="/"
+              >
+                            Home
+              </a>
+</li>,
+            <li
+              className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+              <a
+                            className="inactive"
+                            href="/skills"
+              >
+                            Skills
+              </a>
+</li>,
+            <li
+              className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+>
+              <a
+                            className="inactive"
+                            href="/cv"
+              >
+                            Curriculum Vitae
+              </a>
+</li>,
+          ],
+          "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="inactive"
+                href="/"
+>
+                Home
+</a>,
+              "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Home",
+                "className": "inactive",
+                "href": "/",
+              },
+              "ref": null,
+              "rendered": "Home",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="inactive"
+                href="/skills"
+>
+                Skills
+</a>,
+              "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Skills",
+                "className": "inactive",
+                "href": "/skills",
+              },
+              "ref": null,
+              "rendered": "Skills",
+              "type": "a",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="inactive"
+                href="/cv"
+>
+                Curriculum Vitae
+</a>,
+              "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Curriculum Vitae",
+                "className": "inactive",
+                "href": "/cv",
+              },
+              "ref": null,
+              "rendered": "Curriculum Vitae",
+              "type": "a",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
