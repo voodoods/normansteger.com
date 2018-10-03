@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import StyledSkills from './Skills.styled'
-import SkillCard from '../../components/skill-card/SkillCard'
-import Navbar from '../../components/navbar/Navbar'
+import SkillCard from '../../components/skill-card/'
+import Navbar from '../../components/navbar/'
 import ContentNotFound from '../content-not-found/ContentNotFound'
 
 import { softSkills, codeSkills } from './skills-data'

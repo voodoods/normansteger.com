@@ -4,8 +4,8 @@ import 'purecss/build/pure-min.css'
 import 'purecss/build/grids-responsive-min.css'
 import './index.css'
 
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
+import Header from './components/header/'
+import Footer from './components/footer/'
 
 import Home from './pages/home/Home'
 import Skills from './pages/skills/Skills'

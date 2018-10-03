@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import SocialContacts from './SocialContacts'
+import SocialContacts from '../View'
 
-describe('<SocialContacts />', () => {
+describe('<SocialContacts /> component View', () => {
   it('should render without crashing', () => {
     const wrapper = shallow(<SocialContacts />)
     expect(wrapper.find('.SocialContacts')).toHaveLength(1)

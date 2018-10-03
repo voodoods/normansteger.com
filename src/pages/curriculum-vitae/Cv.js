@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Navbar from '../../components/navbar/Navbar'
+import Navbar from '../../components/navbar/'
 import JobCard from './job-card/JobCard'
 import StyledCv from './Cv.styled'
 import ContentNotFound from '../content-not-found/ContentNotFound'

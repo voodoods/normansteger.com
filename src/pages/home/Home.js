@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Claim from '../../components/claim/Claim'
-import Navbar from '../../components/navbar/Navbar'
+import Claim from '../../components/claim/'
+import Navbar from '../../components/navbar/'
 import StyledHome from './Home.styled'
 
 class Home extends Component {

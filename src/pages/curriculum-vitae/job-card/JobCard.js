@@ -7,9 +7,9 @@ class SkillCard extends Component {
     if (!date) {
       return
     }
-    const locale = "en-us"
+    const locale = 'en-us'
     const year = date.getFullYear()
-    const month = date.toLocaleString(locale, { month: "long" })
+    const month = date.toLocaleString(locale, { month: 'long' })
     const parsedDate = `${month} ${year}`
 
     return parsedDate
@@ -22,13 +22,12 @@ class SkillCard extends Component {
           <p className="title">{this.props.job.title}</p>
           <p className="company">{this.props.job.company}</p>
           <p className="period">
-            {!this.props.job.to && (
-              <span>{this.parseDate(this.props.job.from)}</span>
-            )}
+            {!this.props.job.to && <span>{this.parseDate(this.props.job.from)}</span>}
             {this.props.job.to && (
-               <span>{this.parseDate(this.props.job.from)} - {this.parseDate(this.props.job.to)}</span>
+              <span>
+                {this.parseDate(this.props.job.from)} - {this.parseDate(this.props.job.to)}
+              </span>
             )}
-            
           </p>
           <p className="description">{this.props.job.description}</p>
         </div>
