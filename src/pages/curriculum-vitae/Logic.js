@@ -12,6 +12,7 @@ export const withJobGroups = withProps(({ getGroup }) => ({
     training: getGroup('Training'),
     employments: getGroup('Employments'),
     certificates: getGroup('Certificates'),
+    other: getGroup('Other'),
   },
 }))
 

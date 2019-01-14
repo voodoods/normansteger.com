@@ -41,6 +41,13 @@ const Cv = ({ jobSet, jobGroups, location }) => (
           return <JobCard key={index} job={job} />
         })}
         <p />
+        <h3>
+          <a name="certificates">Other</a>
+        </h3>
+        {jobGroups.other.map((job, index) => {
+          return <JobCard key={index} job={job} />
+        })}
+        <p />
       </div>
     )}
   </StyledCv>
