@@ -11,6 +11,7 @@ ShallowWrapper {
         activePath="/"
     />
     <Unknown />
+    <withProps(BrowseRepository) />
 </styled.div>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -29,8 +30,9 @@ ShallowWrapper {
           activePath="/"
 />,
         <Unknown />,
+        <withProps(BrowseRepository) />,
       ],
-      "className": "Home pure-u-1 sc-bxivhb gAYDYn",
+      "className": "Home pure-u-1 sc-ifAKCX jFCkYz",
     },
     "ref": null,
     "rendered": Array [
@@ -41,6 +43,15 @@ ShallowWrapper {
         "props": Object {
           "activePath": "/",
         },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -68,8 +79,9 @@ ShallowWrapper {
             activePath="/"
 />,
           <Unknown />,
+          <withProps(BrowseRepository) />,
         ],
-        "className": "Home pure-u-1 sc-bxivhb gAYDYn",
+        "className": "Home pure-u-1 sc-ifAKCX jFCkYz",
       },
       "ref": null,
       "rendered": Array [
@@ -80,6 +92,15 @@ ShallowWrapper {
           "props": Object {
             "activePath": "/",
           },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],
