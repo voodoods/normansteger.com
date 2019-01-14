@@ -55,6 +55,15 @@ describe('<Cv /> components View', () => {
             to: 'bla',
           },
         ],
+        other: [
+          {
+            title: 'bla',
+            company: 'bla',
+            description: 'bla',
+            from: 'bla',
+            to: 'bla',
+          },
+        ],
       },
     }
     const wrapper = shallow(<View {...props} />)

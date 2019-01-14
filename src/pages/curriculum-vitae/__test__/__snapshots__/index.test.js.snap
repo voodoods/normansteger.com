@@ -2,71 +2,71 @@
 
 exports[`<Cv /> component index expects component to match snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <withProps(withProps(withProps(Cv)))
     jobGroups={
-        Object {
-            "certificates": Array [
-              Object {
-                "company": "bla",
-                "description": "bla",
-                "from": "bla",
-                "title": "bla",
-                "to": "bla",
-              },
-            ],
-            "employments": Array [
-              Object {
-                "company": "bla",
-                "description": "bla",
-                "from": "bla",
-                "title": "bla",
-                "to": "bla",
-              },
-            ],
-            "internships": Array [
-              Object {
-                "company": "bla",
-                "description": "bla",
-                "from": "bla",
-                "title": "bla",
-                "to": "bla",
-              },
-            ],
-            "training": Array [
-              Object {
-                "company": "bla",
-                "description": "bla",
-                "from": "bla",
-                "title": "bla",
-                "to": "bla",
-              },
-            ],
-          }
+      Object {
+        "certificates": Array [
+          Object {
+            "company": "bla",
+            "description": "bla",
+            "from": "bla",
+            "title": "bla",
+            "to": "bla",
+          },
+        ],
+        "employments": Array [
+          Object {
+            "company": "bla",
+            "description": "bla",
+            "from": "bla",
+            "title": "bla",
+            "to": "bla",
+          },
+        ],
+        "internships": Array [
+          Object {
+            "company": "bla",
+            "description": "bla",
+            "from": "bla",
+            "title": "bla",
+            "to": "bla",
+          },
+        ],
+        "training": Array [
+          Object {
+            "company": "bla",
+            "description": "bla",
+            "from": "bla",
+            "title": "bla",
+            "to": "bla",
+          },
+        ],
+      }
     }
     jobSet={
-        Array [
-            Object {
-              "company": "Bla bla",
-              "description": "Bla bla",
-              "from": "05/01/2017",
-              "group": "Bla bla",
-              "title": "Bla bla",
-              "to": "05/01/2018",
-            },
-          ]
+      Array [
+        Object {
+          "company": "Bla bla",
+          "description": "Bla bla",
+          "from": "05/01/2017",
+          "group": "Bla bla",
+          "title": "Bla bla",
+          "to": "05/01/2018",
+        },
+      ]
     }
     location={
-        Object {
-            "pathname": "/some/path",
-          }
+      Object {
+        "pathname": "/some/path",
+      }
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -180,6 +180,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

@@ -2,55 +2,55 @@
 
 exports[`<Navbar /> component index expects component to match snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Navbar />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": <ul
         className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+      >
         <li
-                className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+          className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
         >
-                <a
-                        className="inactive"
-                        href="/"
-                >
-                        Home
-                </a>
+          <a
+            className="inactive"
+            href="/"
+          >
+            Home
+          </a>
         </li>
         <li
-                className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+          className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
         >
-                <a
-                        className="inactive"
-                        href="/skills"
-                >
-                        Skills
-                </a>
+          <a
+            className="inactive"
+            href="/skills"
+          >
+            Skills
+          </a>
         </li>
         <li
-                className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+          className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
         >
-                <a
-                        className="inactive"
-                        href="/cv"
-                >
-                        Curriculum Vitae
-                </a>
+          <a
+            className="inactive"
+            href="/cv"
+          >
+            Curriculum Vitae
+          </a>
         </li>
-</ul>,
+      </ul>,
       "className": "Navbar pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
     },
     "ref": null,
@@ -62,34 +62,34 @@ ShallowWrapper {
         "children": Array [
           <li
             className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+          >
             <a
-                        className="inactive"
-                        href="/"
+              className="inactive"
+              href="/"
             >
-                        Home
+              Home
             </a>
-</li>,
+          </li>,
           <li
             className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+          >
             <a
-                        className="inactive"
-                        href="/skills"
+              className="inactive"
+              href="/skills"
             >
-                        Skills
+              Skills
             </a>
-</li>,
+          </li>,
           <li
             className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+          >
             <a
-                        className="inactive"
-                        href="/cv"
+              className="inactive"
+              href="/cv"
             >
-                        Curriculum Vitae
+              Curriculum Vitae
             </a>
-</li>,
+          </li>,
         ],
         "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
       },
@@ -103,9 +103,9 @@ ShallowWrapper {
             "children": <a
               className="inactive"
               href="/"
->
+            >
               Home
-</a>,
+            </a>,
             "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
           },
           "ref": null,
@@ -132,9 +132,9 @@ ShallowWrapper {
             "children": <a
               className="inactive"
               href="/skills"
->
+            >
               Skills
-</a>,
+            </a>,
             "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
           },
           "ref": null,
@@ -161,9 +161,9 @@ ShallowWrapper {
             "children": <a
               className="inactive"
               href="/cv"
->
+            >
               Curriculum Vitae
-</a>,
+            </a>,
             "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
           },
           "ref": null,
@@ -185,48 +185,106 @@ ShallowWrapper {
       ],
       "type": "ul",
     },
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  @media screen and (min-width: 768px) {
+    .pure-u-lg-1,
+    .pure-u-md-1 {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .pure-u-sm-1 {
+      width: auto;
+    }
+  }
+
+  ul {
+    margin: 3em 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 1em;
+      list-style: none;
+
+      a {
+        width: 100%;
+        color: #aaa;
+        text-decoration: none;
+        padding: 0.5em 0;
+
+        &:hover {
+          border-bottom: 1px solid #aaa;
+        }
+      }
+
+      .active {
+        color: #000;
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": <ul
           className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+        >
           <li
-                    className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+            className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
           >
-                    <a
-                              className="inactive"
-                              href="/"
-                    >
-                              Home
-                    </a>
+            <a
+              className="inactive"
+              href="/"
+            >
+              Home
+            </a>
           </li>
           <li
-                    className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+            className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
           >
-                    <a
-                              className="inactive"
-                              href="/skills"
-                    >
-                              Skills
-                    </a>
+            <a
+              className="inactive"
+              href="/skills"
+            >
+              Skills
+            </a>
           </li>
           <li
-                    className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
+            className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
           >
-                    <a
-                              className="inactive"
-                              href="/cv"
-                    >
-                              Curriculum Vitae
-                    </a>
+            <a
+              className="inactive"
+              href="/cv"
+            >
+              Curriculum Vitae
+            </a>
           </li>
-</ul>,
+        </ul>,
         "className": "Navbar pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
       },
       "ref": null,
@@ -238,34 +296,34 @@ ShallowWrapper {
           "children": Array [
             <li
               className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+            >
               <a
-                            className="inactive"
-                            href="/"
+                className="inactive"
+                href="/"
               >
-                            Home
+                Home
               </a>
-</li>,
+            </li>,
             <li
               className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+            >
               <a
-                            className="inactive"
-                            href="/skills"
+                className="inactive"
+                href="/skills"
               >
-                            Skills
+                Skills
               </a>
-</li>,
+            </li>,
             <li
               className="pure-u-lg-1 pure-u-md-1 pure-u-sm-1"
->
+            >
               <a
-                            className="inactive"
-                            href="/cv"
+                className="inactive"
+                href="/cv"
               >
-                            Curriculum Vitae
+                Curriculum Vitae
               </a>
-</li>,
+            </li>,
           ],
           "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
         },
@@ -279,9 +337,9 @@ ShallowWrapper {
               "children": <a
                 className="inactive"
                 href="/"
->
+              >
                 Home
-</a>,
+              </a>,
               "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
             },
             "ref": null,
@@ -308,9 +366,9 @@ ShallowWrapper {
               "children": <a
                 className="inactive"
                 href="/skills"
->
+              >
                 Skills
-</a>,
+              </a>,
               "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
             },
             "ref": null,
@@ -337,9 +395,9 @@ ShallowWrapper {
               "children": <a
                 className="inactive"
                 href="/cv"
->
+              >
                 Curriculum Vitae
-</a>,
+              </a>,
               "className": "pure-u-lg-1 pure-u-md-1 pure-u-sm-1",
             },
             "ref": null,
@@ -361,13 +419,81 @@ ShallowWrapper {
         ],
         "type": "ul",
       },
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  @media screen and (min-width: 768px) {
+    .pure-u-lg-1,
+    .pure-u-md-1 {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .pure-u-sm-1 {
+      width: auto;
+    }
+  }
+
+  ul {
+    margin: 3em 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 1em;
+      list-style: none;
+
+      a {
+        width: 100%;
+        color: #aaa;
+        text-decoration: none;
+        padding: 0.5em 0;
+
+        &:hover {
+          border-bottom: 1px solid #aaa;
+        }
+      }
+
+      .active {
+        color: #000;
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

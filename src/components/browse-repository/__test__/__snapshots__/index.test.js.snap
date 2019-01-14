@@ -2,42 +2,42 @@
 
 exports[`<BrowseRepository /> component index expects component to match snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <BrowseRepository
     openInNewTab={[Function]}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <div
           className="content-left"
->
+        >
           <i
-                    className="fa fa-code-fork fa-3x"
+            className="fa fa-code-fork fa-3x"
           />
-</div>,
+        </div>,
         <div
           className="content-right"
->
+        >
           <b>
-                    Want to take a look into the code?
+            Want to take a look into the code?
           </b>
           <br />
           <span>
-                    Browse the repository of this site!
+            Browse the repository of this site!
           </span>
-</div>,
+        </div>,
       ],
       "className": "BrowseRepository pure-u-1",
       "onClick": [Function],
@@ -51,7 +51,7 @@ ShallowWrapper {
         "props": Object {
           "children": <i
             className="fa fa-code-fork fa-3x"
-/>,
+          />,
           "className": "content-left",
         },
         "ref": null,
@@ -76,11 +76,11 @@ ShallowWrapper {
           "children": Array [
             <b>
               Want to take a look into the code?
-</b>,
+            </b>,
             <br />,
             <span>
               Browse the repository of this site!
-</span>,
+            </span>,
           ],
           "className": "content-right",
         },
@@ -121,33 +121,79 @@ ShallowWrapper {
         "type": "div",
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  width: 30%;
+  font-size: 0.8em;
+  cursor: pointer;
+
+  b,
+  span,
+  i {
+    color: #ccc;
+    line-height: 1.6em;
+  }
+
+  .content-left,
+  .content-right {
+    float: left;
+  }
+
+  .content-right {
+    margin: 10px 15px;
+  }
+
+  &:hover {
+    b,
+    span,
+    i {
+      color: #000;
+    }
+  }
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <div
             className="content-left"
->
+          >
             <i
-                        className="fa fa-code-fork fa-3x"
+              className="fa fa-code-fork fa-3x"
             />
-</div>,
+          </div>,
           <div
             className="content-right"
->
+          >
             <b>
-                        Want to take a look into the code?
+              Want to take a look into the code?
             </b>
             <br />
             <span>
-                        Browse the repository of this site!
+              Browse the repository of this site!
             </span>
-</div>,
+          </div>,
         ],
         "className": "BrowseRepository pure-u-1",
         "onClick": [Function],
@@ -161,7 +207,7 @@ ShallowWrapper {
           "props": Object {
             "children": <i
               className="fa fa-code-fork fa-3x"
-/>,
+            />,
             "className": "content-left",
           },
           "ref": null,
@@ -186,11 +232,11 @@ ShallowWrapper {
             "children": Array [
               <b>
                 Want to take a look into the code?
-</b>,
+              </b>,
               <br />,
               <span>
                 Browse the repository of this site!
-</span>,
+              </span>,
             ],
             "className": "content-right",
           },
@@ -231,13 +277,69 @@ ShallowWrapper {
           "type": "div",
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  width: 30%;
+  font-size: 0.8em;
+  cursor: pointer;
+
+  b,
+  span,
+  i {
+    color: #ccc;
+    line-height: 1.6em;
+  }
+
+  .content-left,
+  .content-right {
+    float: left;
+  }
+
+  .content-right {
+    margin: 10px 15px;
+  }
+
+  &:hover {
+    b,
+    span,
+    i {
+      color: #000;
+    }
+  }
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

@@ -10,7 +10,7 @@ describe('<Header /> component View', () => {
 
   it('should contain a "#logo" section with an image inside', () => {
     const wrapper = shallow(<View />)
-    expect(wrapper.find('#logo img')).toHaveLength(1)
+    expect(wrapper.find('img#logo')).toHaveLength(1)
   })
   it('should contain a ".title" section', () => {
     const wrapper = shallow(<View />)
