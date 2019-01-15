@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SkillCard /> component index expects component to match snapshot 1`] = `
+exports[`<BrowseRepository /> component index expects component to match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkillCard />,
+  Symbol(enzyme.__unrendered__): <BrowseRepository
+    openInNewTab={[Function]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,21 +19,28 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "centered": undefined,
       "children": Array [
         <div
-          className="skill-logo"
+          className="content-left"
         >
-          <img />
+          <i
+            className="fa fa-code-fork fa-3x"
+          />
         </div>,
         <div
-          className="skill-story"
+          className="content-right"
         >
-          <h3 />
-          <p />
+          <b>
+            Want to take a look into the code?
+          </b>
+          <br />
+          <span>
+            Browse the repository of this site!
+          </span>
         </div>,
       ],
-      "className": "SkillCard",
+      "className": "BrowseRepository pure-u-1",
+      "onClick": [Function],
     },
     "ref": null,
     "rendered": Array [
@@ -40,8 +49,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <img />,
-          "className": "skill-logo",
+          "children": <i
+            className="fa fa-code-fork fa-3x"
+          />,
+          "className": "content-left",
         },
         "ref": null,
         "rendered": Object {
@@ -49,12 +60,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "alt": undefined,
-            "src": undefined,
+            "className": "fa fa-code-fork fa-3x",
           },
           "ref": null,
           "rendered": null,
-          "type": "img",
+          "type": "i",
         },
         "type": "div",
       },
@@ -64,10 +74,15 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h3 />,
-            <p />,
+            <b>
+              Want to take a look into the code?
+            </b>,
+            <br />,
+            <span>
+              Browse the repository of this site!
+            </span>,
           ],
-          "className": "skill-story",
+          "className": "content-right",
         },
         "ref": null,
         "rendered": Array [
@@ -76,22 +91,31 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": "Want to take a look into the code?",
             },
             "ref": null,
+            "rendered": "Want to take a look into the code?",
+            "type": "b",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
             "rendered": null,
-            "type": "h3",
+            "type": "br",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": "Browse the repository of this site!",
             },
             "ref": null,
-            "rendered": null,
-            "type": "p",
+            "rendered": "Browse the repository of this site!",
+            "type": "span",
           },
         ],
         "type": "div",
@@ -102,99 +126,34 @@ ShallowWrapper {
       "attrs": Array [],
       "componentStyle": ComponentStyle {
         "componentId": "sc-bdVaJa",
-        "isStatic": false,
+        "isStatic": true,
         "rules": Array [
           "
-  display: ",
-          [Function],
-          ";
-  align-items: ",
-          [Function],
-          ";
-  margin: ",
-          [Function],
-          ";
-  width: ",
-          [Function],
-          ";
-  float: ",
-          [Function],
-          ";
+  width: 30%;
+  font-size: 0.8em;
+  cursor: pointer;
 
-  @media screen and (max-width: 768px) {
-    width: ",
-          [Function],
-          ";
-    height: auto;
-    margin: ",
-          [Function],
-          ";
+  b,
+  span,
+  i {
+    color: #ccc;
+    line-height: 1.6em;
   }
 
-  h3 {
-    font-size: 1.4em;
-    text-align: ",
-          [Function],
-          ";
-  }
-  p {
-    font-weight: 300;
-    text-align: ",
-          [Function],
-          ";
+  .content-left,
+  .content-right {
+    float: left;
   }
 
-  .skill-logo,
-  .skill-story {
-    display: ",
-          [Function],
-          ";
+  .content-right {
+    margin: 10px 15px;
   }
 
-  .skill-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: ",
-          [Function],
-          ";
-    height: ",
-          [Function],
-          ";
-    margin-right: ",
-          [Function],
-          ";
-    margin-bottom: ",
-          [Function],
-          ";
-    text-align: ",
-          [Function],
-          ";
-
-    img {
-      width: ",
-          [Function],
-          ";
-    }
-  }
-
-  .skill-story {
-    h3 {
-      margin-top: 0;
-    }
-
-    width: ",
-          [Function],
-          ";
-    height: ",
-          [Function],
-          ";
-    float: ",
-          [Function],
-          ";
-
-    @media screen and (max-width: 1024px) {
-      width: 100%;
+  &:hover {
+    b,
+    span,
+    i {
+      color: #000;
     }
   }
 ",
@@ -216,21 +175,28 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "centered": undefined,
         "children": Array [
           <div
-            className="skill-logo"
+            className="content-left"
           >
-            <img />
+            <i
+              className="fa fa-code-fork fa-3x"
+            />
           </div>,
           <div
-            className="skill-story"
+            className="content-right"
           >
-            <h3 />
-            <p />
+            <b>
+              Want to take a look into the code?
+            </b>
+            <br />
+            <span>
+              Browse the repository of this site!
+            </span>
           </div>,
         ],
-        "className": "SkillCard",
+        "className": "BrowseRepository pure-u-1",
+        "onClick": [Function],
       },
       "ref": null,
       "rendered": Array [
@@ -239,8 +205,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <img />,
-            "className": "skill-logo",
+            "children": <i
+              className="fa fa-code-fork fa-3x"
+            />,
+            "className": "content-left",
           },
           "ref": null,
           "rendered": Object {
@@ -248,12 +216,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": undefined,
-              "src": undefined,
+              "className": "fa fa-code-fork fa-3x",
             },
             "ref": null,
             "rendered": null,
-            "type": "img",
+            "type": "i",
           },
           "type": "div",
         },
@@ -263,10 +230,15 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h3 />,
-              <p />,
+              <b>
+                Want to take a look into the code?
+              </b>,
+              <br />,
+              <span>
+                Browse the repository of this site!
+              </span>,
             ],
-            "className": "skill-story",
+            "className": "content-right",
           },
           "ref": null,
           "rendered": Array [
@@ -275,22 +247,31 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": "Want to take a look into the code?",
               },
               "ref": null,
+              "rendered": "Want to take a look into the code?",
+              "type": "b",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
               "rendered": null,
-              "type": "h3",
+              "type": "br",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": "Browse the repository of this site!",
               },
               "ref": null,
-              "rendered": null,
-              "type": "p",
+              "rendered": "Browse the repository of this site!",
+              "type": "span",
             },
           ],
           "type": "div",
@@ -301,99 +282,34 @@ ShallowWrapper {
         "attrs": Array [],
         "componentStyle": ComponentStyle {
           "componentId": "sc-bdVaJa",
-          "isStatic": false,
+          "isStatic": true,
           "rules": Array [
             "
-  display: ",
-            [Function],
-            ";
-  align-items: ",
-            [Function],
-            ";
-  margin: ",
-            [Function],
-            ";
-  width: ",
-            [Function],
-            ";
-  float: ",
-            [Function],
-            ";
+  width: 30%;
+  font-size: 0.8em;
+  cursor: pointer;
 
-  @media screen and (max-width: 768px) {
-    width: ",
-            [Function],
-            ";
-    height: auto;
-    margin: ",
-            [Function],
-            ";
+  b,
+  span,
+  i {
+    color: #ccc;
+    line-height: 1.6em;
   }
 
-  h3 {
-    font-size: 1.4em;
-    text-align: ",
-            [Function],
-            ";
-  }
-  p {
-    font-weight: 300;
-    text-align: ",
-            [Function],
-            ";
+  .content-left,
+  .content-right {
+    float: left;
   }
 
-  .skill-logo,
-  .skill-story {
-    display: ",
-            [Function],
-            ";
+  .content-right {
+    margin: 10px 15px;
   }
 
-  .skill-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: ",
-            [Function],
-            ";
-    height: ",
-            [Function],
-            ";
-    margin-right: ",
-            [Function],
-            ";
-    margin-bottom: ",
-            [Function],
-            ";
-    text-align: ",
-            [Function],
-            ";
-
-    img {
-      width: ",
-            [Function],
-            ";
-    }
-  }
-
-  .skill-story {
-    h3 {
-      margin-top: 0;
-    }
-
-    width: ",
-            [Function],
-            ";
-    height: ",
-            [Function],
-            ";
-    float: ",
-            [Function],
-            ";
-
-    @media screen and (max-width: 1024px) {
-      width: 100%;
+  &:hover {
+    b,
+    span,
+    i {
+      color: #000;
     }
   }
 ",

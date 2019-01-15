@@ -2,66 +2,66 @@
 
 exports[`<SocialContacts /> component index should render without crashing 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SocialContacts />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <li>
           <a
-                    href="https://twitter.com/voodoods"
-                    rel="noopener noreferrer"
-                    target="_blank"
+            href="https://twitter.com/voodoods"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-                    <i
-                              className="fa fa-twitter-square fa-2x"
-                    />
+            <i
+              className="fa fa-twitter-square fa-2x"
+            />
           </a>
-</li>,
+        </li>,
         <li>
           <a
-                    href="https://www.xing.com/profile/Norman_Steger/cv"
-                    rel="noopener noreferrer"
-                    target="_blank"
+            href="https://www.xing.com/profile/Norman_Steger/cv"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-                    <i
-                              className="fa fa-xing-square fa-2x"
-                    />
+            <i
+              className="fa fa-xing-square fa-2x"
+            />
           </a>
-</li>,
+        </li>,
         <li>
           <a
-                    href="https://www.linkedin.com/in/norman-steger-70568284/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+            href="https://www.linkedin.com/in/norman-steger-70568284/"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-                    <i
-                              className="fa fa-linkedin-square fa-2x"
-                    />
+            <i
+              className="fa fa-linkedin-square fa-2x"
+            />
           </a>
-</li>,
+        </li>,
         <li>
           <a
-                    href="https://github.com/voodoods"
-                    rel="noopener noreferrer"
-                    target="_blank"
+            href="https://github.com/voodoods"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-                    <i
-                              className="fa fa-github-square fa-2x"
-                    />
+            <i
+              className="fa fa-github-square fa-2x"
+            />
           </a>
-</li>,
+        </li>,
       ],
       "className": "SocialContacts",
     },
@@ -76,11 +76,11 @@ ShallowWrapper {
             href="https://twitter.com/voodoods"
             rel="noopener noreferrer"
             target="_blank"
->
+          >
             <i
-                        className="fa fa-twitter-square fa-2x"
+              className="fa fa-twitter-square fa-2x"
             />
-</a>,
+          </a>,
         },
         "ref": null,
         "rendered": Object {
@@ -90,7 +90,7 @@ ShallowWrapper {
           "props": Object {
             "children": <i
               className="fa fa-twitter-square fa-2x"
-/>,
+            />,
             "href": "https://twitter.com/voodoods",
             "rel": "noopener noreferrer",
             "target": "_blank",
@@ -120,11 +120,11 @@ ShallowWrapper {
             href="https://www.xing.com/profile/Norman_Steger/cv"
             rel="noopener noreferrer"
             target="_blank"
->
+          >
             <i
-                        className="fa fa-xing-square fa-2x"
+              className="fa fa-xing-square fa-2x"
             />
-</a>,
+          </a>,
         },
         "ref": null,
         "rendered": Object {
@@ -134,7 +134,7 @@ ShallowWrapper {
           "props": Object {
             "children": <i
               className="fa fa-xing-square fa-2x"
-/>,
+            />,
             "href": "https://www.xing.com/profile/Norman_Steger/cv",
             "rel": "noopener noreferrer",
             "target": "_blank",
@@ -164,11 +164,11 @@ ShallowWrapper {
             href="https://www.linkedin.com/in/norman-steger-70568284/"
             rel="noopener noreferrer"
             target="_blank"
->
+          >
             <i
-                        className="fa fa-linkedin-square fa-2x"
+              className="fa fa-linkedin-square fa-2x"
             />
-</a>,
+          </a>,
         },
         "ref": null,
         "rendered": Object {
@@ -178,7 +178,7 @@ ShallowWrapper {
           "props": Object {
             "children": <i
               className="fa fa-linkedin-square fa-2x"
-/>,
+            />,
             "href": "https://www.linkedin.com/in/norman-steger-70568284/",
             "rel": "noopener noreferrer",
             "target": "_blank",
@@ -208,11 +208,11 @@ ShallowWrapper {
             href="https://github.com/voodoods"
             rel="noopener noreferrer"
             target="_blank"
->
+          >
             <i
-                        className="fa fa-github-square fa-2x"
+              className="fa fa-github-square fa-2x"
             />
-</a>,
+          </a>,
         },
         "ref": null,
         "rendered": Object {
@@ -222,7 +222,7 @@ ShallowWrapper {
           "props": Object {
             "children": <i
               className="fa fa-github-square fa-2x"
-/>,
+            />,
             "href": "https://github.com/voodoods",
             "rel": "noopener noreferrer",
             "target": "_blank",
@@ -244,59 +244,88 @@ ShallowWrapper {
         "type": "li",
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-right: 5px;
+
+    a {
+      color: #c1ccd1;
+    }
+  }
+",
+        ],
+      },
+      "displayName": "styled.ul",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "ul",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <li>
             <a
-                        href="https://twitter.com/voodoods"
-                        rel="noopener noreferrer"
-                        target="_blank"
+              href="https://twitter.com/voodoods"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-                        <i
-                                    className="fa fa-twitter-square fa-2x"
-                        />
+              <i
+                className="fa fa-twitter-square fa-2x"
+              />
             </a>
-</li>,
+          </li>,
           <li>
             <a
-                        href="https://www.xing.com/profile/Norman_Steger/cv"
-                        rel="noopener noreferrer"
-                        target="_blank"
+              href="https://www.xing.com/profile/Norman_Steger/cv"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-                        <i
-                                    className="fa fa-xing-square fa-2x"
-                        />
+              <i
+                className="fa fa-xing-square fa-2x"
+              />
             </a>
-</li>,
+          </li>,
           <li>
             <a
-                        href="https://www.linkedin.com/in/norman-steger-70568284/"
-                        rel="noopener noreferrer"
-                        target="_blank"
+              href="https://www.linkedin.com/in/norman-steger-70568284/"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-                        <i
-                                    className="fa fa-linkedin-square fa-2x"
-                        />
+              <i
+                className="fa fa-linkedin-square fa-2x"
+              />
             </a>
-</li>,
+          </li>,
           <li>
             <a
-                        href="https://github.com/voodoods"
-                        rel="noopener noreferrer"
-                        target="_blank"
+              href="https://github.com/voodoods"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-                        <i
-                                    className="fa fa-github-square fa-2x"
-                        />
+              <i
+                className="fa fa-github-square fa-2x"
+              />
             </a>
-</li>,
+          </li>,
         ],
         "className": "SocialContacts",
       },
@@ -311,11 +340,11 @@ ShallowWrapper {
               href="https://twitter.com/voodoods"
               rel="noopener noreferrer"
               target="_blank"
->
+            >
               <i
-                            className="fa fa-twitter-square fa-2x"
+                className="fa fa-twitter-square fa-2x"
               />
-</a>,
+            </a>,
           },
           "ref": null,
           "rendered": Object {
@@ -325,7 +354,7 @@ ShallowWrapper {
             "props": Object {
               "children": <i
                 className="fa fa-twitter-square fa-2x"
-/>,
+              />,
               "href": "https://twitter.com/voodoods",
               "rel": "noopener noreferrer",
               "target": "_blank",
@@ -355,11 +384,11 @@ ShallowWrapper {
               href="https://www.xing.com/profile/Norman_Steger/cv"
               rel="noopener noreferrer"
               target="_blank"
->
+            >
               <i
-                            className="fa fa-xing-square fa-2x"
+                className="fa fa-xing-square fa-2x"
               />
-</a>,
+            </a>,
           },
           "ref": null,
           "rendered": Object {
@@ -369,7 +398,7 @@ ShallowWrapper {
             "props": Object {
               "children": <i
                 className="fa fa-xing-square fa-2x"
-/>,
+              />,
               "href": "https://www.xing.com/profile/Norman_Steger/cv",
               "rel": "noopener noreferrer",
               "target": "_blank",
@@ -399,11 +428,11 @@ ShallowWrapper {
               href="https://www.linkedin.com/in/norman-steger-70568284/"
               rel="noopener noreferrer"
               target="_blank"
->
+            >
               <i
-                            className="fa fa-linkedin-square fa-2x"
+                className="fa fa-linkedin-square fa-2x"
               />
-</a>,
+            </a>,
           },
           "ref": null,
           "rendered": Object {
@@ -413,7 +442,7 @@ ShallowWrapper {
             "props": Object {
               "children": <i
                 className="fa fa-linkedin-square fa-2x"
-/>,
+              />,
               "href": "https://www.linkedin.com/in/norman-steger-70568284/",
               "rel": "noopener noreferrer",
               "target": "_blank",
@@ -443,11 +472,11 @@ ShallowWrapper {
               href="https://github.com/voodoods"
               rel="noopener noreferrer"
               target="_blank"
->
+            >
               <i
-                            className="fa fa-github-square fa-2x"
+                className="fa fa-github-square fa-2x"
               />
-</a>,
+            </a>,
           },
           "ref": null,
           "rendered": Object {
@@ -457,7 +486,7 @@ ShallowWrapper {
             "props": Object {
               "children": <i
                 className="fa fa-github-square fa-2x"
-/>,
+              />,
               "href": "https://github.com/voodoods",
               "rel": "noopener noreferrer",
               "target": "_blank",
@@ -479,13 +508,52 @@ ShallowWrapper {
           "type": "li",
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-right: 5px;
+
+    a {
+      color: #c1ccd1;
+    }
+  }
+",
+          ],
+        },
+        "displayName": "styled.ul",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "ul",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
