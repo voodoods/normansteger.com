@@ -9,7 +9,9 @@ const Home = ({ location }) => (
   <StyledHome className="Home pure-u-1">
     <Navbar activePath={location.pathname} />
     <Claim />
-    <BrowseRepository />
+    <div className="pure-u-lg-6-24 pure-u-sm-1">
+      <BrowseRepository />
+    </div>
   </StyledHome>
 )
 

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const StyledBrowseRepository = styled.div`
-  width: 30%;
   font-size: 0.8em;
   cursor: pointer;
 
@@ -12,13 +11,8 @@ const StyledBrowseRepository = styled.div`
     line-height: 1.6em;
   }
 
-  .content-left,
-  .content-right {
-    float: left;
-  }
-
-  .content-right {
-    margin: 10px 15px;
+  .block-right {
+    margin: 12px 0;
   }
 
   &:hover {
@@ -26,6 +20,18 @@ const StyledBrowseRepository = styled.div`
     span,
     i {
       color: #000;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 50%;
+      margin: 0 25%;
+    }
+
+    .block-left,
+    .block-right {
+      text-align: center;
     }
   }
 `
