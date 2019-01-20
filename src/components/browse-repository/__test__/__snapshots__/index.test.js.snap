@@ -23,14 +23,14 @@ ShallowWrapper {
         className="pure-u-1 container"
       >
         <div
-          className="pure-u-sm-1 pure-u-md-1-4 block-left"
+          className="pure-u-sm-1 pure-u-md-3-24 block-left"
         >
           <i
             className="fa fa-code-fork fa-3x "
           />
         </div>
         <div
-          className="pure-u-sm-1 pure-u-md-3-4 block-right "
+          className="pure-u-sm-1 pure-u-md-21-24 block-right "
         >
           <b>
             Want to take a look into the code?
@@ -52,14 +52,14 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="pure-u-sm-1 pure-u-md-1-4 block-left"
+            className="pure-u-sm-1 pure-u-md-3-24 block-left"
           >
             <i
               className="fa fa-code-fork fa-3x "
             />
           </div>,
           <div
-            className="pure-u-sm-1 pure-u-md-3-4 block-right "
+            className="pure-u-sm-1 pure-u-md-21-24 block-right "
           >
             <b>
               Want to take a look into the code?
@@ -82,7 +82,7 @@ ShallowWrapper {
             "children": <i
               className="fa fa-code-fork fa-3x "
             />,
-            "className": "pure-u-sm-1 pure-u-md-1-4 block-left",
+            "className": "pure-u-sm-1 pure-u-md-3-24 block-left",
           },
           "ref": null,
           "rendered": Object {
@@ -112,7 +112,7 @@ ShallowWrapper {
                 Browse the repository of this site!
               </span>,
             ],
-            "className": "pure-u-sm-1 pure-u-md-3-4 block-right ",
+            "className": "pure-u-sm-1 pure-u-md-21-24 block-right ",
           },
           "ref": null,
           "rendered": Array [
@@ -217,14 +217,14 @@ ShallowWrapper {
           className="pure-u-1 container"
         >
           <div
-            className="pure-u-sm-1 pure-u-md-1-4 block-left"
+            className="pure-u-sm-1 pure-u-md-3-24 block-left"
           >
             <i
               className="fa fa-code-fork fa-3x "
             />
           </div>
           <div
-            className="pure-u-sm-1 pure-u-md-3-4 block-right "
+            className="pure-u-sm-1 pure-u-md-21-24 block-right "
           >
             <b>
               Want to take a look into the code?
@@ -246,14 +246,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <div
-              className="pure-u-sm-1 pure-u-md-1-4 block-left"
+              className="pure-u-sm-1 pure-u-md-3-24 block-left"
             >
               <i
                 className="fa fa-code-fork fa-3x "
               />
             </div>,
             <div
-              className="pure-u-sm-1 pure-u-md-3-4 block-right "
+              className="pure-u-sm-1 pure-u-md-21-24 block-right "
             >
               <b>
                 Want to take a look into the code?
@@ -276,7 +276,7 @@ ShallowWrapper {
               "children": <i
                 className="fa fa-code-fork fa-3x "
               />,
-              "className": "pure-u-sm-1 pure-u-md-1-4 block-left",
+              "className": "pure-u-sm-1 pure-u-md-3-24 block-left",
             },
             "ref": null,
             "rendered": Object {
@@ -306,7 +306,7 @@ ShallowWrapper {
                   Browse the repository of this site!
                 </span>,
               ],
-              "className": "pure-u-sm-1 pure-u-md-3-4 block-right ",
+              "className": "pure-u-sm-1 pure-u-md-21-24 block-right ",
             },
             "ref": null,
             "rendered": Array [

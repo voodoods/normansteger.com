@@ -9,10 +9,10 @@ const BrowseRepository = ({ openInNewTab }) => (
     className="BrowseRepository pure-u-1"
   >
     <div className="pure-u-1 container">
-      <div className="pure-u-sm-1 pure-u-md-1-4 block-left">
+      <div className="pure-u-sm-1 pure-u-md-3-24 block-left">
         <i className="fa fa-code-fork fa-3x " />
       </div>
-      <div className="pure-u-sm-1 pure-u-md-3-4 block-right ">
+      <div className="pure-u-sm-1 pure-u-md-21-24 block-right ">
         <b>Want to take a look into the code?</b>
         <br />
         <span>Browse the repository of this site!</span>

@@ -7,7 +7,8 @@ const Footer = () => (
       Norman Steger &copy; 2018. Built with <i className="fa fa-heart" aria-hidden="true" /> and{' '}
       <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
         React
-      </a>. This website is cookie-free!
+      </a>
+      . This website is cookie-free!
     </div>
     <div className="mailcontact pure-u-lg-1-4 pure-u-md-1-4 pure-u-sm-1">
       <a href="/imprint/">Imprint & Contact Information</a>
