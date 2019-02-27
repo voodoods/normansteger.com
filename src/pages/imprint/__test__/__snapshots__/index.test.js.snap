@@ -32,19 +32,8 @@ ShallowWrapper {
           </a>
         </h3>
         <p>
-          All informations according to § 5 TMG
-        </p>
-        <p>
-          Norman Steger 
-          <br />
-          Steinweg 26a
-          <br />
-          93059 Regensburg 
-          <br />
-        </p>
-        <p>
           <b>
-            Represented by: 
+            This website is owned and operated by: 
           </b>
           <br />
           Norman Steger
@@ -69,6 +58,13 @@ ShallowWrapper {
           <h3>
             Disclaimer: 
           </h3>
+          <b>
+            Purpose of this site
+          </b>
+          <br />
+          <br />
+          This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.
+          <br />
           <br />
           <b>
             Cookies and Data Tracking
@@ -106,19 +102,8 @@ ShallowWrapper {
             </a>
           </h3>,
           <p>
-            All informations according to § 5 TMG
-          </p>,
-          <p>
-            Norman Steger 
-            <br />
-            Steinweg 26a
-            <br />
-            93059 Regensburg 
-            <br />
-          </p>,
-          <p>
             <b>
-              Represented by: 
+              This website is owned and operated by: 
             </b>
             <br />
             Norman Steger
@@ -143,6 +128,13 @@ ShallowWrapper {
             <h3>
               Disclaimer: 
             </h3>
+            <b>
+              Purpose of this site
+            </b>
+            <br />
+            <br />
+            This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.
+            <br />
             <br />
             <b>
               Cookies and Data Tracking
@@ -197,69 +189,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "All informations according to § 5 TMG",
-          },
-          "ref": null,
-          "rendered": "All informations according to § 5 TMG",
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Norman Steger ",
-              <br />,
-              "Steinweg 26a",
-              <br />,
-              "93059 Regensburg ",
-              <br />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Norman Steger ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": "br",
-            },
-            "Steinweg 26a",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": "br",
-            },
-            "93059 Regensburg ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": "br",
-            },
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
             "children": Array [
               <b>
-                Represented by: 
+                This website is owned and operated by: 
               </b>,
               <br />,
               "Norman Steger",
@@ -273,10 +205,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Represented by: ",
+                "children": "This website is owned and operated by: ",
               },
               "ref": null,
-              "rendered": "Represented by: ",
+              "rendered": "This website is owned and operated by: ",
               "type": "b",
             },
             Object {
@@ -379,6 +311,13 @@ ShallowWrapper {
               <h3>
                 Disclaimer: 
               </h3>,
+              <b>
+                Purpose of this site
+              </b>,
+              <br />,
+              <br />,
+              "This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.",
+              <br />,
               <br />,
               <b>
                 Cookies and Data Tracking
@@ -419,6 +358,45 @@ ShallowWrapper {
               "ref": null,
               "rendered": "Disclaimer: ",
               "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Purpose of this site",
+              },
+              "ref": null,
+              "rendered": "Purpose of this site",
+              "type": "b",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
             },
             Object {
               "instance": null,
@@ -586,19 +564,8 @@ ShallowWrapper {
             </a>
           </h3>
           <p>
-            All informations according to § 5 TMG
-          </p>
-          <p>
-            Norman Steger 
-            <br />
-            Steinweg 26a
-            <br />
-            93059 Regensburg 
-            <br />
-          </p>
-          <p>
             <b>
-              Represented by: 
+              This website is owned and operated by: 
             </b>
             <br />
             Norman Steger
@@ -623,6 +590,13 @@ ShallowWrapper {
             <h3>
               Disclaimer: 
             </h3>
+            <b>
+              Purpose of this site
+            </b>
+            <br />
+            <br />
+            This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.
+            <br />
             <br />
             <b>
               Cookies and Data Tracking
@@ -660,19 +634,8 @@ ShallowWrapper {
               </a>
             </h3>,
             <p>
-              All informations according to § 5 TMG
-            </p>,
-            <p>
-              Norman Steger 
-              <br />
-              Steinweg 26a
-              <br />
-              93059 Regensburg 
-              <br />
-            </p>,
-            <p>
               <b>
-                Represented by: 
+                This website is owned and operated by: 
               </b>
               <br />
               Norman Steger
@@ -697,6 +660,13 @@ ShallowWrapper {
               <h3>
                 Disclaimer: 
               </h3>
+              <b>
+                Purpose of this site
+              </b>
+              <br />
+              <br />
+              This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.
+              <br />
               <br />
               <b>
                 Cookies and Data Tracking
@@ -751,69 +721,9 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "All informations according to § 5 TMG",
-            },
-            "ref": null,
-            "rendered": "All informations according to § 5 TMG",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Norman Steger ",
-                <br />,
-                "Steinweg 26a",
-                <br />,
-                "93059 Regensburg ",
-                <br />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Norman Steger ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": "br",
-              },
-              "Steinweg 26a",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": "br",
-              },
-              "93059 Regensburg ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": "br",
-              },
-            ],
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
               "children": Array [
                 <b>
-                  Represented by: 
+                  This website is owned and operated by: 
                 </b>,
                 <br />,
                 "Norman Steger",
@@ -827,10 +737,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Represented by: ",
+                  "children": "This website is owned and operated by: ",
                 },
                 "ref": null,
-                "rendered": "Represented by: ",
+                "rendered": "This website is owned and operated by: ",
                 "type": "b",
               },
               Object {
@@ -933,6 +843,13 @@ ShallowWrapper {
                 <h3>
                   Disclaimer: 
                 </h3>,
+                <b>
+                  Purpose of this site
+                </b>,
+                <br />,
+                <br />,
+                "This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.",
+                <br />,
                 <br />,
                 <b>
                   Cookies and Data Tracking
@@ -973,6 +890,45 @@ ShallowWrapper {
                 "ref": null,
                 "rendered": "Disclaimer: ",
                 "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Purpose of this site",
+                },
+                "ref": null,
+                "rendered": "Purpose of this site",
+                "type": "b",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              "This website is for sole informational purposes about its representative as a professional. It does not offer any sort of commercial services or products nor does it follow any commercial purposes in any way.",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
               },
               Object {
                 "instance": null,
