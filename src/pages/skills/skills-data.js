@@ -28,7 +28,7 @@ const softSkills = [
     logo: logoTeam,
     name: "I'm a team player",
     description:
-      "Great results can only be achieved in a team. I've been part of such teams and have led them myself as wellc. Thus I'm always commited to provide my team mates with everything they need to achieve greatness - be it as their partner or their leader.",
+      "Great results can only be achieved in a team. I've been part of such teams and have led them myself as well. Thus I'm always commited to provide my team mates with everything they need to achieve greatness - be it as their partner or their leader.",
   },
 ]
 
