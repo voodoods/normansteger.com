@@ -1,12 +1,21 @@
 export const jobSet = [
   {
     group: 'Employments',
+    title: 'Software Engineer JavaScript',
+    company: 'Comsysto Reply GmbH, Munich',
+    description:
+      'Consultant Level Software Engineer with specialization on all things JavaScript and TypeScript. Agile Software Development following SCRUM methology. Using technologies like: Node.js, Nest.js, Angular, React, TypeScript, Karma, Jasmine, Jest, TestCafé, Java Spring Boot, CSS / SASS / CSS-in-JS, Jenkins, Git (Bitbucket, Github, Gitlab). Using Agile Tools like Atlassian Jira, Confluence. Creating software architectures based on: Single Page Applications, Micro-Frontend Applications, RESTful Microservice based Backend-for-Frontend APIs.',
+    from: new Date('03/01/2020'),
+    to: new Date(Date.now()),
+  },
+  {
+    group: 'Employments',
     title: 'Software Developer',
     company: '8select Software GmbH, Regensburg',
     description:
       'Web Software Developer with specialization on Frontend and UI. Design and Development of eCommerce Curated Recommendation Widgets, Administration Panels and Shop Software Plugins for Shopware, Oxid eShop, Magento, etc. working with JavaScript (ECMAScript 6, React / Redux, Angular, Node.js), PHP (Symfony, Doctrine, etc.), RESTful APIs, ElasticSearch, AWS infrastrucutre and more. ',
     from: new Date('05/01/2017'),
-    to: new Date(Date.now()),
+    to: new Date('02/28/2020'),
   },
   {
     group: 'Employments',

@@ -11,7 +11,7 @@ const Header = () => (
       </a>
       <h1 className="pure-u-lg-5-24 pure-u-md-5-24 pure-u-sm-1">Norman Steger</h1>&nbsp;
       <h2 className="pue-u-lg-19-24 pure-u-md-19-24 pure-u-sm-1">
-        UI / UX Designer &middot; Software Developer &middot; Frontend Engineer
+        UI / UX Designer &middot; Fullstack Software Engineer
       </h2>
     </div>
     <div className="socials pure-u-lg-5-24 pure-u-md-8-24 pure-u-sm-1">
