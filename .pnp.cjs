@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.43.0"],\
             ["eslint-config-next", "virtual:df90e5b70b358d70baf9d3aa54b8d97281ebccbdf8500ed5d2ce95c29249af51248f9e0dd46a1fa9b792e41a3afa0119400ed9f072005f10a786934c491de4c8#npm:13.4.6"],\
             ["next", "virtual:df90e5b70b358d70baf9d3aa54b8d97281ebccbdf8500ed5d2ce95c29249af51248f9e0dd46a1fa9b792e41a3afa0119400ed9f072005f10a786934c491de4c8#npm:13.4.6"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:df90e5b70b358d70baf9d3aa54b8d97281ebccbdf8500ed5d2ce95c29249af51248f9e0dd46a1fa9b792e41a3afa0119400ed9f072005f10a786934c491de4c8#npm:18.2.0"],\
             ["tailwindcss", "npm:3.3.2"],\
@@ -862,7 +862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
@@ -3454,7 +3454,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.43.0"],\
             ["eslint-config-next", "virtual:df90e5b70b358d70baf9d3aa54b8d97281ebccbdf8500ed5d2ce95c29249af51248f9e0dd46a1fa9b792e41a3afa0119400ed9f072005f10a786934c491de4c8#npm:13.4.6"],\
             ["next", "virtual:df90e5b70b358d70baf9d3aa54b8d97281ebccbdf8500ed5d2ce95c29249af51248f9e0dd46a1fa9b792e41a3afa0119400ed9f072005f10a786934c491de4c8#npm:13.4.6"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:df90e5b70b358d70baf9d3aa54b8d97281ebccbdf8500ed5d2ce95c29249af51248f9e0dd46a1fa9b792e41a3afa0119400ed9f072005f10a786934c491de4c8#npm:18.2.0"],\
             ["tailwindcss", "npm:3.3.2"],\
@@ -3800,6 +3800,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/postcss-npm-8.4.24-07c10836e5-814e2126da.zip/node_modules/postcss/",\
           "packageDependencies": [\
             ["postcss", "npm:8.4.24"],\
+            ["nanoid", "npm:3.3.6"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:8.4.31", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.31-385051a82b-1d8611341b.zip/node_modules/postcss/",\
+          "packageDependencies": [\
+            ["postcss", "npm:8.4.31"],\
             ["nanoid", "npm:3.3.6"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
