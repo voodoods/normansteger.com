@@ -35,5 +35,3 @@ next-env.d.ts
 # VSCode Local History Extension
 .history
 
-#Firebase
-.firebase
