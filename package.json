@@ -6,21 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postgres:up": "./lib/db/testdb.sh up",
+    "postgres:down": "./lib/db/testdb.sh down",
+    "migrations:generate": "drizzle-kit generate:pg",
+    "migrations:push": "bun lib/db/migrate.ts",
+    "migrations:drop": "drizzle-kit drop --config=drizzle.config.ts",
+    "seed": "bun lib/db/seed.ts"
   },
   "dependencies": {
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
+    "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.14",
+    "drizzle-orm": "^0.29.0",
     "eslint": "8.43.0",
     "eslint-config-next": "latest",
+    "kysely": "^0.26.3",
     "next": "^14.0.1",
     "postcss": "8.4.24",
+    "postgres": "^3.4.3",
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3"
   },
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.0",
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.7",
+    "drizzle-kit": "^0.20.1",
+    "esbuild": "^0.19.5",
+    "esbuild-register": "^3.5.0"
+  }
 }

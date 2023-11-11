@@ -4,6 +4,7 @@ import { Titillium_Web } from 'next/font/google'
 const titilliumweb = Titillium_Web({ weight: '400', subsets: ['latin'] });
 
 export default function Home() {
+
   return (
     <>
       <main className="min-h-screen flex-col items-center justify-between p-5 pb-0 md:p-12 xl:p-24 xl:pb-0">
