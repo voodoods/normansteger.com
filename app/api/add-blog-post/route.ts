@@ -1,9 +1,7 @@
 import { BlogPostsTable } from "@/lib/db/schema";
-import { BlogPost, BlogPostRequestDto } from "../../blog/models";
+import { BlogPost } from "../../blog/models";
 import { db } from "@/lib/db";
-import { NextApiRequest, NextApiResponse } from "next";
-import { NextResponse } from "next/server";
-import { getBlogPosts } from "@/components/get-blog-posts";
+import { NextApiResponse } from "next";
 
 export async function POST(req: Request, res: NextApiResponse) {
     if (req.method === 'POST') {
@@ -16,14 +14,11 @@ export async function POST(req: Request, res: NextApiResponse) {
         }
 
         await db.insert(BlogPostsTable).values(newBlogPostEntry);
-        return Response.json({ message: 'Blog post added successfully' });
-        //res.status(200).json({ message: 'Blog post added successfully' });
+        res.status(200).json({ message: 'Blog post added successfully' });
       } catch (error) {
-        return Response.json({ message: 'Error adding blog post', error });
-        //res.status(500).json({ error: 'Error adding blog post' });
+        res.status(500).json({ error: 'Error adding blog post' });
       }
     } else {
-      return Response.json({ message: 'Method not allowed' });
-      //res.status(405).json({ error: 'Method not allowed' });
+      res.status(405).json({ error: 'Method not allowed' });
     }
   }
